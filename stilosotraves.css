@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900|Open+Sans|Slabo+27px&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+ 
+ 
+.navbar {
+	list-style:none;
+	padding:10px;
+	background: #E17825;
+  
+	width:100%;
+	max-width: 3000px;
+margin:auto;
+}
+
+.navbar-light .nav-item .nav-link {
+  text-decoration: blink;
+	color: white;
+	padding: 10px;
+	display:block;
+  align-items: center;
+  justify-content: center;
+	}
+
+.navbar-light .navbar-toggler {
+   color: #025157;
+		text-align:center;
+}
+
+
+.navbar li a:hover{
+		background:#FE2E2E;
+		}
+         
+    .titulo{
+      /* color: black;/* color de h1  
+          /* text-decoration: underline; */ /* linea abajo  */
+          /* text-decoration:  overline;  linea arriba   */ 
+                 text-decoration-color: #00ff00;  color de la linea  
+                 font-family: 'Roboto', sans-serif;
+                 font-family: 'Roboto Slab', serif;
+  }
+  .titulo:first-letter{  
+      font-size: 50px;
+  color:rgb(136, 136, 226);
+   
+  }
+   
+ 
+
+.body{
+  background-color: rgb(207, 207, 37);
+  height: 100px;
+  padding: 120px;
+  
+}
+ 
+.body1{
+  background-color: rgb(207, 207, 37);
+   
+  height: 100px;
+  padding: 120px;
+  
+}
+.body-img{
+background-image: url(https://image.freepik.com/vector-gratis/fondo-garabatos-panaderia_125540-632.jpg);
+height:500px;
+padding: 0px;
+} 
+.columna-izquierda{  
+  display:flex;
+  align-items: center;
+ 
+}
+.icono-phone{
+  margin-right: 15px;
+}
+
+ .icono-phone i {
+     color: black;
+font-size:  2em;
+   
+ }
+ .contacto-Hora{
+  color: #10eb10;
+  }
+
+  
+   
+  .direccion{
+   color: aqua;
+  }
+   
+  @media (max-width: 575px) {
+    .navbar,
+    .actions {
+      display: none;
+    }
+  
+    main {
+      margin-top: 130px;
+    }
+  
+    .titulo{
+      font-size: 30px;
+    }
+    .body{
+      background-color: #00ff00;
+    }
+SSS
+  }
+ 
