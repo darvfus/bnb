@@ -13,7 +13,8 @@
 .navbar {
 	list-style:none;
 	padding:0;
-	background:#E17825;
+	/* background:#E17825; */
+  background:black;
 	width:100%;
 	max-width: 3000px;
 margin:auto;
@@ -29,7 +30,7 @@ margin:auto;
 }
 
 .navbar-light .navbar-toggler {
-   color: #025157;
+   color: blue;
 		text-align:center;
 }
 
@@ -37,14 +38,42 @@ margin:auto;
 .navbar li a:hover{
 		background:#FE2E2E;
 		}
-
-         
+    p1{
+      color: white;
+      font-size:10px;
+    }
+    p2{
+      color: white;
+      font-size:10px;
+      text-align: center;
+    }
+    
+     
+  .icono-phone{
+color:#dadada;
+margin: right 15px;
+padding: 2px;
+  }
+  .icono-phone i{
+    font-size: 2em;
+     text-align: left;
+  }
+  p4{
+    color: white;
+    font-size:12px;
+  }
+  p5{
+    color: white;
+    font-size:10px;
+    text-align: center;
+  }
+   
              
                       
            
           .body1{
             background-color: rgb(207, 207, 37);
-            height:300px;
+            height:200px;
             padding: 60px;
             
           }
@@ -79,6 +108,12 @@ margin:auto;
             font-size: 50px;
         color:rgb(136, 136, 226);
          
+        }
+        h2{
+          font-size: 1em;
+          text-align: left;
+          color: black;
+          
         }
          
 
@@ -221,68 +256,7 @@ main {
 			margin-top: 0;
 			height: 100%;
 		  }
-		  @media (max-width:200px) {
-            .navbar,
-          .actions {
-            display: none;
-          }
-            body{
-                background-color: #67b54b;
-            }
-            /* main {  
-                margin-top: 130px;
-              }*/
-            
-              h1{  
-                font-family:  "Times New Roman","Georga,serfir";
-                font-size:"100px";
-                font-weight:"bold";
-                text-align:center;
-                text-decoration: blink;
-                    color:rgb(34, 0, 128);
-                }
-        
-                 
-                .features {
-                    grid-template: repeat(4, 1fr) / 1fr;
-                    padding-left: 0;
-                    padding-right: 0;
-                  }
-                  
-                  .feature-image {
-                    display: none;
-                  }
-                  .navbar {
-                    list-style:none;
-                    padding:0;
-                    background:#092327;
-                    width:100%;
-                    max-width: 3000px;
-                margin:auto;
-                }
-                
-                .navbar-light .nav-item .nav-link {
-                  text-decoration: blink;
-                    color: white;
-                    padding: 20px;
-                    display:block;
-                    
-                
-                }
-                
-                .navbar-light .navbar-toggler {
-                   color: #025157;
-                        text-align:center;
-                }
-                
-                
-                .navbar li a:hover{
-                        background:#FE2E2E;
-                        }
-                }
-        
-             
-        }
+		 
                   .banner > img {
                     width: 100%;
                   }
@@ -302,88 +276,31 @@ main {
                      
                             margin-top: 10px;
                           }
-                          .fixed-header {
-                            position: fixed;
-                            top: 0;
-                            left: 0;
-                            right: 0;
-                            background-color: #fffbf7;
-                          }
+                          
                      
                  
-                    h4{
-            font-family:  "Times New Roman",Georga,serfir;
-            font-size:"6";
-            font-weight:"bold";
-            text-align:center;
-            text-decoration: blink;
-                color:white;}
-        .header {
-          padding-bottom: 184px;
-        }
-        
-        .header p {
-          color: #46484c;
-          max-width: 680px;
-          margin: 0 auto;
-          margin-bottom: 72px;
-        }
-         #footer{
-            margin-top: 0px;
-            padding-top: -10px;
-            height: 300px;
-            background:#2e2e2e;
-             
-            background-image: url('../img/footer-background-mountain.jpg');
-            background-size: 100%;
-            background-position: center bottom;
-            background-repeat: no-repeat;
-            border-color: black;
-            color: black;
-        }
-        
-        #footer h3{color: white; padding-top: 50px; margin: 0;
-        font-family:  "Times New Roman",Georga,serfir;
-            font-size:"10";
-            font-weight:"bold";
-            text-align:center;}
-        #footer p {color: white; padding-bottom: 10px; text-align:center;}
-        
-        .rectangle{
-            height: 50px;
-            margin-top: -50px;
-        }
-         
-        .skew-left{
-            transform: skewY(4deg);
-        }
-        .skew-right{
-            transform: skewY(4deg);
-        }
-        
-        .btn{
-            border: solid 1px;
-            padding: 10px 20px;
-            text-decoration: none;
-            margin-right: 10px;
-        }
-        .btn-black{
-            border-color: black;
-            color: black;
-        }
-        .btn-black:hover{
-            background-color: black;
-            border-color: white;
-            color: white;
-        }
-        .btn-white{
-            border-color: white;
-            color: white;
-        }
-        
-        .btn-white:hover{
-            background-color: white;
-            border-color: black;
-            color: black;
-        }
-        
+              
+                          .features-section {
+                            height:200x;
+                            background-image: url("pie.jpg");
+                            background-color: #cea135;
+   
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+                        }
+                        .features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.column {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+ 
